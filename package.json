@@ -1,0 +1,16 @@
+export const FOCUS_MESSAGES = [
+  "Una tarea a la vez. Eso es todo.",
+  "El trabajo profundo crea valor real.",
+  "Apaga el ruido. Tú y esta tarea.",
+  "Cada minuto enfocado cuenta.",
+  "No hay multitarea. Solo esto ahora.",
+  "La concentración es un superpoder.",
+  "Haz que estos minutos valgan.",
+  "Cero distracciones. Máximo impacto.",
+  "Empieza. El momentum llega solo.",
+  "Este bloque de tiempo es tuyo.",
+]
+
+export function randomMessage() {
+  return FOCUS_MESSAGES[Math.floor(Math.random() * FOCUS_MESSAGES.length)]
+}
